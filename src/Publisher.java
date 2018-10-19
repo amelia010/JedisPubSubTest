@@ -32,7 +32,7 @@ public class Publisher extends Thread{
                 }
             } catch (IOException e) {
                 e.printStackTrace();
-                Util.print("pub(3)");
+                Util.print("pub(3)..");
             }
         }
         Util.print("pub(4)");
